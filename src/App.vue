@@ -1,8 +1,12 @@
-<script setup>
+<script>
 import TodoAdd from "./components/TodoAdd.vue";
 import TodoFilter from "./components/TodoFilter.vue";
 import TodoList from "./components/TodoList.vue";
 
+export default{
+  name:"app",
+  components:{TodoAdd,TodoFilter,TodoList}
+}
 
 </script>
 
